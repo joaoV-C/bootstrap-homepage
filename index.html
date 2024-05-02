@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/main.css">
+    
+    <script src="https://kit.fontawesome.com/341c153d4d.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+<!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark" id="nav">
+        <div class="container" id="navContainer">
+            <button 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarNav" 
+            class="navbar-toggler ms-auto"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Ativa menu de navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle"
+                        id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                            Discografia
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a href="#" class="dropdown-item">Álbuns</a></li>
+                            <li><a href="#" class="dropdown-item">Singles e EPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="galeria.html" class="nav-link">
+                            Galeria
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            Tour
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            Contactos
+                        </a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input type="text" class="form-control me-2" 
+                    aria-label="Botão de pesquisa">
+                    <button class="btn btn-outline-success" type="submit">
+                        Search
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+<!-- Header -->
+    <header class="header-expand-sm h-100">
+        <div class="container d-flex" id="headerContainer">
+            <h1 class="display-1 mx-auto d-block">Esperanza Spalding</h1>
+            <img src="imagens/esperanza-spalding-main-img.jpg" alt="Esperanza Spalding tocando baixo acústico." 
+            class="img-fluid mx-auto d-block" id="mainImg">
+            <p class="text-center">
+                Esperanza Spalding (Portland, 18 de outubro de 1984) é uma contrabaixista e cantora de jazz estadunidense. <br>
+            Esperanza canta em inglês, espanhol e português. Tocou acompanhada por grandes nomes do jazz, como Pat Metheny, <br>Joe Lovano, Michel Camilo, Donald Harrinson e Milton Nascimento. <br>
+            Em 2011, ganhou o Grammy na categoria de Artista Revelação.<br>
+            </p>
+        </div>
+    </header>
+<!-- Article -->
+    <article>
+        <div class="container" id="discografia">
+            <h2>Discografia</h2>
+            <div id="albuns">
+                <h4 class="discTitulo">Álbuns</h4>
+                <div class="accordion accordion-flush" id="albumAccordion">
+                    <div class="accordion-item bg-dark">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                          <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Junjo (2006)
+                          </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#albumAccordion">
+                          <div class="accordion-body">
+                                <a href="https://open.spotify.com/intl-pt/album/5dOs8cDC3Dib3LvhYfOeZf?si=K1pGZ1s7RyuYj8gVVVc13Q"
+                                    aria-label="Capa do album Junjo" target="_blank" rel="noopener noreferrer"
+                                    ><img src="imagens/junjo-special-edition-180gr-hq-vinyl.jpg" alt="" class="albImg">
+                                </a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-dark">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                          <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Esperanza (2008)
+                          </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#albumAccordion">
+                          <div class="accordion-body">
+                                <a href="https://open.spotify.com/intl-pt/album/7188JsHTl3rladofF7CVvW?si=7pHNJ3tsTby7eOxbxAY89g"
+                                    aria-label="Capa do album Esperanza" target="_blank" rel="noopener noreferrer"
+                                    ><img src="imagens/esperanza-album.jpg" alt="" class="albImg">
+                                </a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-dark">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                          <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Chamber Music Society (2010)
+                          </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#albumAccordion">
+                          <div class="accordion-body">
+                                <a href="https://open.spotify.com/intl-pt/album/6VQWGmqLfbOBXIfI3kFMas?si=DGFOmOW6TSC4VrWIqatzVA"
+                                    aria-label="Capa do album Chamber Music Society" target="_blank" rel="noopener noreferrer"
+                                    ><img src="imagens/ChamberMusicSociety.jpg" alt="" class="albImg">
+                                </a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-dark">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                          <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                            Radio Music Society (2012)
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#albumAccordion">
+                          <div class="accordion-body">
+                                <a href="https://open.spotify.com/intl-pt/album/50ZGiAqYPxQpDVs7QT2ys8?si=aawDYWlcTCSDp5oWTIdaDw"
+                                    aria-label="Capa do album Radio Music Society (2012)" target="_blank" rel="noopener noreferrer"
+                                    ><img src="imagens/Radio_Music_Society_(Esperanza_Spalding_album)_cover.jpg" alt="" class="albImg">
+                                </a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-dark">
+                        <h2 class="accordion-header" id="flush-headingFive">
+                          <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                            Emily's D+Evolution (2016)
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#albumAccordion">
+                          <div class="accordion-body">
+                                <a href="https://open.spotify.com/intl-pt/album/1aGm5Dz2FocgtXxKfrK0gn?si=Dy7sUWomSBms1dQoF6EB2g"
+                                    aria-label="Capa do album Emily's D+Evolution" target="_blank" rel="noopener noreferrer"
+                                    ><img src="imagens/Emily's_D+Evolution_(Front_Cover).jpg" alt="" class="albImg">
+                                </a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-dark">
+                        <h2 class="accordion-header" id="flush-headingSix">
+                          <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                            Exposure (2017)
+                          </button>
+                        </h2>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#albumAccordion">
+                          <div class="accordion-body">
+                                <a href="https://youtu.be/MTAWMAko-us?si=mNFw0Gz2rH3REYXF"
+                                    aria-label="Capa do album Exposure" target="_blank" rel="noopener noreferrer"
+                                    ><img src="imagens/Exposure_(Esperanza_Spalding).jpg" alt="" class="albImg">
+                                </a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-dark">
+                        <h2 class="accordion-header" id="flush-headingSeven">
+                          <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                            12 Little Spells (2018)
+                          </button>
+                        </h2>
+                        <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#albumAccordion">
+                          <div class="accordion-body">
+                                <a href="https://open.spotify.com/intl-pt/album/5qyj79rRuklEu1jUW4QqQp?si=asICTFszTlGxsJnrulmpnw"
+                                    aria-label="Capa do album 12 Little Spells" target="_blank" rel="noopener noreferrer"
+                                    ><img src="imagens/Esperanza-spalding-12-little-spells.jpg" alt="" class="albImg">
+                                </a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-dark">
+                        <h2 class="accordion-header" id="flush-headingEight">
+                          <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                            Songwrights Apothecary Lab (2021)
+                          </button>
+                        </h2>
+                        <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#albumAccordion">
+                          <div class="accordion-body">
+                                <a href="https://open.spotify.com/intl-pt/album/3x2EYKuBcxSlog5QdD1hTO?si=bRIn2hoRQman30FVnr9tMQ"
+                                    aria-label="Capa do album Songwrights Apothecary Lab" target="_blank" rel="noopener noreferrer"
+                                    ><img src="imagens/Esperanza_Spalding_-_Songwrights_Apothecary_Lab.jpeg" alt="" class="albImg">
+                                </a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="singlesEps">
+                <h4 class="discTitulo">Singles e EPs</h4>
+                <ul>
+                    <li><a href="https://open.spotify.com/intl-pt/album/3Nawq4z9YXRlBqReqAILwD?si=2g-yDwV5QI2RcG7wqSbWmQ"
+                        target="_blank" rel="noopener noreferrer"
+                        >Black Gold (2012)</a></li>
+                    <li><a href="https://open.spotify.com/intl-pt/album/3iLgafL3t8zorpB18bKfzF?si=MkhlBuGJTk2Yn5STYm5eEQ"
+                        target="_blank" rel="noopener noreferrer"
+                        >Spotify Singles (2016)</a></li>
+                    <li><a href="https://open.spotify.com/intl-pt/album/0DQvP4wcoCoUL3MuhJruvc?si=XpPvGoySSYq5dvml1rHGcQ"
+                        target="_blank" rel="noopener noreferrer"
+                        >AVAILABLE AT SONGWRIGHTSAPOTECARYLAB.COM (2021)</a></li>
+                    <li><a href="https://open.spotify.com/intl-pt/album/6DmbyrUQqzuAHwRyRUsZWz?si=lkuZxI7tSsS_yGcwWJyOTA"
+                        target="_blank" rel="noopener noreferrer"
+                        >Formwela 4 [Feat. Corey King] (2021)</a></li>
+                    <li><a href="https://open.spotify.com/intl-pt/album/1aGm5Dz2FocgtXxKfrK0gn?si=Dy7sUWomSBms1dQoF6EB2g"
+                        target="_blank" rel="noopener noreferrer"
+                        >Formwela 5 [Feat. Corey King] (2021)</a></li>
+                    <li><a href="https://open.spotify.com/intl-pt/album/5GskP2twQdS8Wu3Ctg3A39?si=nD6hS9B1QPGT_fIiH5QOLQ"
+                        target="_blank" rel="noopener noreferrer"
+                        >Formwela 6 [Feat. Corey King] (2021)</a></li>
+                    <li><a href="https://open.spotify.com/intl-pt/album/1C85vNz5FIEV5G7dBlLHgS?si=isJloPfpTRKx6QrWX9c6ag"
+                        target="_blank" rel="noopener noreferrer"
+                        >Formwela 10 (2021)</a></li>
+                    <li><a href="https://open.spotify.com/intl-pt/album/1wpuIcJh6XFcb1scRDhapq?si=bu9C7Q8fQ32y9d7MUmw7Kw"
+                        target="_blank" rel="noopener noreferrer"
+                        >Another Story (2022)</a></li>
+                    <li><a href="https://open.spotify.com/intl-pt/album/2HQGUuiP3gXkefW1bd0uV1?si=b4y2C2bXT_SJGYuKH9286w"
+                        target="_blank" rel="noopener noreferrer"
+                        >Sacred Grounds (2022)</a></li>
+                    <li><a href="https://open.spotify.com/intl-pt/album/3WGrGmKwIREsBaLjmFgAOh?si=7U3hKYpuQ0qmgbgiVeKFGg"
+                        target="_blank" rel="noopener noreferrer"
+                        >Drummer's Song(live) (2022)</a></li>
+                    <li><a href="https://open.spotify.com/intl-pt/album/4VSwqTedCRWhNX6KYHS2OI?si=rIoIBEtCRcmRyzlg5SLAVg"
+                        target="_blank" rel="noopener noreferrer"
+                        >Midnight In Carlotta's Hair(live) (2022)</a></li>
+                    <li><a href="https://open.spotify.com/intl-pt/album/6hOKusm7cMOwYEDyccPull?si=AQzwdCSWROmmrhRzv-WAqg"
+                        target="_blank" rel="noopener noreferrer"
+                        >But Not For Me (2022)</a></li>
+                    <li><a href="https://open.spotify.com/intl-pt/album/7JpXVXD9VnMBprCkiRAzhS?si=iQojf6CVQga1ivA1loUGmQ"
+                        target="_blank" rel="noopener noreferrer"
+                        >Loro (2022)</a></li>
+                    <li><a href="https://open.spotify.com/intl-pt/album/4OhAAD1R2PQkCZnETwkkoz?si=ACjtOA4RS3GmPQ5ILL-uaw"
+                        target="_blank" rel="noopener noreferrer"
+                        >Não Ao Marco Temporal (2023)</a></li>
+                    <li><a href="https://open.spotify.com/intl-pt/album/2cpN5cVRclBquDyXNEZ2P9?si=vsWkJzEfRByY3VOf-6dA-w"
+                        target="_blank" rel="noopener noreferrer"
+                        >Não Ao Marco Temporal(Extended Version) (2023)</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container" id="tour">
+            <h2>Tour</h2>
+            <div class="container row justify-content-evenly tourLoc">
+                <div class="col-sm-1"><p>Lisboa, Portugal</p></div>
+                <div class="col-sm-1"><p>Sala Tejo</p></div>
+                <div class="col-sm-2"><p>dom., 26 de mai. 12:00</p></div>
+                <div class="col-sm-1">
+                    <button 
+                    type="button"
+                    class="btn btn-danger btn-sm"
+                    aria-label="Compra de bilhetes">
+                        Comprar bilhetes
+                    </button>
+                </div>
+            </div>
+            <div class="container row justify-content-evenly tourLoc">
+                <div class="col-sm-1"><p>Madri, Espanha</p></div>
+                <div class="col-sm-1"><p>Wizink Center</p></div>
+                <div class="col-sm-2"><p>sáb., 1 de jun. 18:00</p></div>
+                <div class="col-sm-1">
+                    <button 
+                    type="button"
+                    class="btn btn-danger btn-sm"
+                    aria-label="Compra de bilhetes">
+                        Comprar bilhetes
+                    </button>
+                </div>
+            </div>
+            <div class="container row justify-content-evenly tourLoc">
+                <div class="col-sm-1"><p>Barcelona, Espanha</p></div>
+                <div class="col-sm-1"><p>Sant Jordi Club</p></div>
+                <div class="col-sm-2"><p>Ter., 4 de fev. 17:00</p></div>
+                <div class="col-sm-1">
+                    <button 
+                    type="button"
+                    class="btn btn-danger btn-sm"
+                    aria-label="Compra de bilhetes">
+                        Comprar bilhetes
+                    </button>
+                </div>
+            </div>
+            <div class="container row justify-content-evenly tourLoc">
+                <div class="col-sm-1"><p>Portland, Estados Unidos</p></div>
+                <div class="col-sm-1"><p>Colwood Golf Center</p></div>
+                <div class="col-sm-2"><p>sab., 3 de ago. 10:00</p></div>
+                <div class="col-sm-1">
+                    <button 
+                    type="button"
+                    class="btn btn-danger btn-sm"
+                    aria-label="Compra de bilhetes">
+                        Comprar bilhetes
+                    </button>
+                </div>
+            </div>
+        </div>
+    </article>
+<!-- Section -->
+    <section>
+        <div class="container row justify-content-evenly" id="contactos">
+            <div id="info" class="col-sm-4">
+                <p>Portland, Oregon, EUA</p>
+                <p>Phone: +351 123 456 789</p>
+                <p>Email: esperanza.spal@mail.com</p>
+            </div>
+            <div id="form" class="col-sm-4">
+                <h5>Introduza seu nome completo e email para receber notificações novos de tours e músicas.</h5>
+                <div> 
+                    <form id="newsletter" onclick="return false;"> 
+                        <div class="inputbox">
+                            <input type="text" name="name" class="form-control" required="required" placeholder="Digite seu nome">
+                        </div> 
+                        <div class="inputbox"> 
+                            <input type="text" name="name" class="form-control" required="required" placeholder="Email"> 
+                        </div> 
+                        <button type="submit" class="btn btn-danger btn-block">Enviar</button>
+                    </form> 
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Footer -->
+    <footer>
+        <div class="footer">
+            <div>
+                <a href="https://www.youtube.com/@EsperanzaSpaldingTV" class="socials" aria-label="youtube" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="https://open.spotify.com/intl-pt/artist/5bepW5vcdRzheNc0F8lHJ5?si=Q8XEJumESZ2BIm26o2v9Sg" class="socials" aria-label="spotify" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-spotify"></i>
+                </a>
+                <a href="https://www.instagram.com/esperanzaspalding/" class="socials" aria-label="instagram" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/EspeSpalding" class="socials" aria-label="x" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

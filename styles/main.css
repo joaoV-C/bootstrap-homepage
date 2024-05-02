@@ -1,0 +1,169 @@
+@font-face {
+    font-family: baskervville;
+    src: url(fonts/Baskervville-Regular.ttf);
+}
+@font-face {
+    font-family: CormorantGaramond-regular;
+    src: url(fonts/CormorantGaramond-Regular.ttf);
+}
+@font-face {
+    font-family: merriweather;
+    src: url(fonts/Merriweather-Regular.ttf);
+}
+body {
+    background-color: rgb(10, 12, 31);
+    height: 100vh;
+}
+#nav {
+    background-color: black;
+}
+#navContainer {
+    display: flex;
+}
+#navbarNav {
+    justify-content: center;
+}
+.navbar-nav {
+    text-align: right;
+}
+.text-center {
+    font-family:  merriweather, serif;
+}
+#discografia {
+    padding-top: 80px;
+}
+.discTitulo {
+    font-family: CormorantGaramond-regular, 'Times New Roman', Times, serif;
+}
+#discografia h2,
+#singlesEps a {
+    font-family: merriweather, serif;
+}
+#headerContainer {
+    flex-direction: column;
+}
+#headerContainer h1 {
+    font-family: baskervville;
+    padding-top: 70px;
+    color: white;
+}
+#headerContainer p {
+    font-size: 14pt;
+    padding-top: 50px;
+    color: white;
+}
+#mainImg {
+    max-width: 100%;
+    height: auto;
+    width: 800px;
+    padding-top: 30px;
+}
+#discografia h2,
+#tour h2,
+#albuns h4,
+#singlesEps h4  {
+    color: white;
+}
+#albuns {
+    padding-bottom: 30px;
+}
+#discografia h2,
+#tour h2 {
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: CormorantGaramond-regular, 'Times New Roman', Times, serif;
+}
+#discografia h4 {
+    padding-bottom: 12px;
+}
+#discografia li {
+    padding: 6px;
+}
+#discografia li a {
+    font-size: 12pt;
+}
+/*imagens dos álbuns*/
+.albImg {
+    width: 300px;
+}
+/*accordion styling*/
+
+.accordion-button {
+    color: white;
+}
+
+#albuns ul,
+#singlesEps ul {
+    list-style-type: none;
+}
+#albuns li a,
+#singlesEps li a {
+    text-decoration: none;
+    color: white;
+}
+
+#albuns li a:hover,
+#singlesEps li a:hover {
+    color: crimson;
+}
+#tour {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.tourLoc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 200px;
+    padding: 5px;
+}
+.tourLoc p {
+    justify-content: center;
+    color: white;
+} 
+.tourLoc:hover {
+    background-color: rgba(223, 223, 223, 0.411);
+    border-radius: 4px;
+}
+section {
+    background-color: black;
+}
+#contactos {
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+}
+#info p,
+#form h5 {
+    color: white;
+}
+.card {
+    border: none;
+    color: black;
+}
+.inputbox {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.inputbox input {
+    background-color: rgb(22, 21, 21);
+    padding: 8px;
+}
+.footer {
+    margin: auto;
+    padding: 10px 0 0 0;
+}
+.footer a {
+    text-decoration: none;
+}
+.footer i {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18pt;
+    color: #D0F2D3;
+}
+.fa-brands {
+    padding-right: 20px;
+    font-size: 15pt;
+}
+
